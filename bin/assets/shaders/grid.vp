@@ -1,0 +1,9 @@
+#version 330 core
+
+layout(location = 0) in vec2 vPos;
+
+uniform mat4 matrixMVP;
+
+void main() {
+	gl_Position = matrixMVP * vec4(vPos.x, 0.0, vPos.y, 1.0);
+}

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{f3588451-e398-4b7a-be3b-26dea1c6099f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{1c17d545-f840-4fb5-967f-83c9fda442f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{80778c5b-4199-4510-8ca0-5182322ce58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{f1789b2d-71f9-466d-9467-a31b5a8d2e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers\States">
+      <UniqueIdentifier>{c745289f-6555-46dd-8fe1-7847214f59fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers\States">
+      <UniqueIdentifier>{ef800133-c9cb-4c96-a538-2ac158e980a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{530f0636-501b-4333-bfcd-abd4804156d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{6d0ea3c4-1539-4dc6-bd7e-972477b2f116}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Controllers\States\Initialization.cpp">
+      <Filter>Source Files\Controllers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Controllers\States\Manager.cpp">
+      <Filter>Source Files\Controllers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Controllers\States\Shutdown.cpp">
+      <Filter>Source Files\Controllers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Controllers\States\Work.cpp">
+      <Filter>Source Files\Controllers\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Controllers\FlyCamera.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Models\Grid.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Controllers\States\Initialization.h">
+      <Filter>Header Files\Controllers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controllers\States\Manager.h">
+      <Filter>Header Files\Controllers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controllers\States\Shutdown.h">
+      <Filter>Header Files\Controllers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controllers\States\Work.h">
+      <Filter>Header Files\Controllers\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controllers\FlyCamera.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Models\Grid.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\assets\shaders\grid.fp">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="..\bin\assets\shaders\grid.vp">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

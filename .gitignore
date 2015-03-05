@@ -1,0 +1,14 @@
+bin/Project.*
+bin/assets/models/*
+libs/*
+personal/*
+project/build/*
+*.sdf
+*.pdb
+*.opensdf
+*.dll
+*.lib
+*.exe
+*.log
+*.ilk
+*.suo
